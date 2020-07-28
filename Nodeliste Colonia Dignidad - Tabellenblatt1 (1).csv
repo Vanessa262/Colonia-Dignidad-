@@ -1,0 +1,15 @@
+id,name,sex,power,age,nationality,country,subject,type
+PatriaYLibertad,Patria y Libertad,0,2,0,2,1,1,1
+ManuelContreras,Manuel Contreras,1,5,4,2,1,1,0
+HugoRoggendorf,Hugo Roggendorf,1,2,4,4,2,6,0
+WalterRauff,Walter Rauff,1,2,4,4,2,6,0
+HansAlbertLoeper,Hans Albert Loeper,1,2,4,4,2,6,0
+GerhardMertins,Gerhard Mertins,1,3,4,4,2,2,0
+FreundeskreisColoniaDignidad,Freundeskreis Colonia Dignidad,0,1,0,4,2,6,1
+ManfredRoeder,Manfred Roeder,1,1,4,4,2,6,0
+FranzJosefStrauss,Franz Josef Strauss,1,4,4,4,2,1,0
+DeutscheBotschaft,Deutsche Botschaft,0,5,0,4,1,1,1
+AugustoPinochet,Augusto Pinochet,1,5,4,2,1,1,0
+ErichStraetling,Erich Straetling,1,3,4,4,2,1,0
+WolfgangVogelgesang,Wolfgang Vogelgesang,1,2,4,4,2,1,0
+GerhardLoewenthal,Gerhard Loewenthal,1,2,4,4,2,6,0
