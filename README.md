@@ -45,6 +45,10 @@ subject (Tätigkeitsbereich)
 - 4 = Justiz 
 - 5 = Religion 
 - 6 = divers
+
+type 
+- 0=Person
+- 1=Organisation
  
 # Edge-Attribute:
 
