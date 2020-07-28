@@ -49,7 +49,7 @@ subject (Tätigkeitsbereich)
 # Edge-Attribute:
 
 id (eindeutige Codierung der Knoten)
-- codiert von 1 bis XX, jede ID entspricht einem Unternehmen/Organisation/Verband bzw. einer Person
+- codiert mit vollem Namen der Person oder Organisation
  
 from 
 - definiert den Sender 
