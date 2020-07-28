@@ -1,0 +1,15 @@
+from,to,relation
+PaulSchaefer,PatriayLibertad,2
+PaulSchaefer,ManuelContreras,2
+PaulSchaefer,HugoRoggendorf,3
+"PaulSchaefer,WalterRauff,""1,2,3"""
+"PaulSchaefer,HansAlbertLoeper,""1,2,3"""
+"PaulSchaefer,GerhardMertins,""2,3"""
+PaulSchaefer,FreundeskreisColoniaDignidad,3
+PaulSchaefer,ManfredRoeder,3
+"PaulSchaefer,FranzJosefStrauss,""2,3"""
+PaulSchaefer,DeutscheBotschaft,2
+"PaulSchaefer,AugustoPinochet,""1,2,3"""
+PaulSchaefer,ErichStraetling,3
+PaulSchaefer,WolfgangVogelgesang,3
+PaulSchaefer,GerhardLoewenthal,3
