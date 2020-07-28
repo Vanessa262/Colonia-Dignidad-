@@ -62,6 +62,3 @@ relation (Beziehungsart zwischen den Personen)
 - 2 = help Unterstützungsbeziehung: Die Beziehung basiert auf aktive Unterstützung/ Zustimmung gegenüber der Colonia Dignidad -> Unterstützung in Kombination mit einem bestimmten Vorteil (korruptiv)
 - 3 = friendship freundschaftliche/private Beziehung zwischen Akteuren
  
-time 
-- Anfang: 1961 wurde Colonia Dignidad gegründet; Ende: 1997 Paul Schäfer flieht nach Argentinien
-- definiert den Zeitraum, in dem die Beziehung zwischen zwei Knoten stattgefunden hat 
