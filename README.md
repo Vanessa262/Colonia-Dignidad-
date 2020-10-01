@@ -68,5 +68,5 @@ relation (Beziehungsart zwischen den Personen)
 - 3 = friendship freundschaftliche/private Beziehung zwischen Akteuren
 - 4 = hostility Person ging gegen Paul Schäfer und seine Machenschaften vor
 - 5 = abuse Person wurde von Paul Schäfer physisch oder psychisch misshandelt
-- 6 = relatives = Verwandschaft von Paul Schäfer
+- 6 = relatives Verwandschaft von Paul Schäfer
  
