@@ -12,7 +12,6 @@ sex
 - Geschlecht des Knotens 
 - male=1 
 - female=2 
-- divers (Organisationen)=3
 
 power
 - definiert die Macht des Knotens 
@@ -38,13 +37,15 @@ country
 - 2 = Deutschland
 - 3 = Argentinien 
 
-subject (Tätigkeitsbereich)
+subject (Beziehungsebene zu Paul Schäfer)
 - 1 = Politik
 - 2 = Wirtschaft
 - 3 = Finanzen 
 - 4 = Justiz 
 - 5 = Religion 
-- 6 = divers
+- 6 = Mitglied
+- 7 = Familie
+- 8 = Sonstiges
 
 type 
 - 0=Person
@@ -65,4 +66,7 @@ relation (Beziehungsart zwischen den Personen)
 - 1 = work Geschäftliche Beziehung: Die Beziehung basiert rein auf geschäftlicher Ebene, arbeiten ohne spezielle Unterstützung wie durch beispielsweise Geld
 - 2 = help Unterstützungsbeziehung: Die Beziehung basiert auf aktive Unterstützung/ Zustimmung gegenüber der Colonia Dignidad -> Unterstützung in Kombination mit einem bestimmten Vorteil (korruptiv)
 - 3 = friendship freundschaftliche/private Beziehung zwischen Akteuren
+- 4 = hostility Person ging gegen Paul Schäfer und seine Machenschaften vor
+- 5 = abuse Person wurde von Paul Schäfer physisch oder psychisch misshandelt
+- 6 = relatives = Verwandschaft von Paul Schäfer
  
