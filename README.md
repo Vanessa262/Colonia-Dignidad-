@@ -41,7 +41,7 @@ country
 subject (Beziehungsebene zu Paul Schäfer)
 - 1 = Politik
 - 2 = Wirtschaft
-- 3 = Finanzen 
+- 3 = Medizin 
 - 4 = Justiz 
 - 5 = Religion 
 - 6 = Mitglied
