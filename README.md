@@ -46,6 +46,7 @@ subject (Beziehungsebene zu Paul Schäfer)
 - 6 = Mitglied
 - 7 = Familie
 - 8 = Sonstiges
+- 9 = ging gegen Paul Schäfer vor
 
 type 
 - 0=Person
