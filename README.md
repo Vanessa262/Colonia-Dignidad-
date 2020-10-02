@@ -24,6 +24,7 @@ age
 - 2 = 31 bis 40 Jahre
 - 3 = 41 bis 50 Jahre
 - 4 = 51 und älter
+- 5 = verstorben
 
 nationality (aktueller Sitz)     
 - 0 = international (bei Organisationen)
