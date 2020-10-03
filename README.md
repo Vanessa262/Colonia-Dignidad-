@@ -14,7 +14,7 @@ sex
 - female=2 
 
 power
-- definiert die Macht des Knotens in der Kolonie (z.B. ist 5=sehr hoch - war in der Führungsebene der Kolonie) 
+- definiert die Macht des Knotens in der Kolonie (z.B. ist 5=sehr hoch - Personen die in der Führungsebene der Kolonie waren) 
 - 1=sehr gering -- 5=sehr hoch
 - 0=keine Macht 
 
