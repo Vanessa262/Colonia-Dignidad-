@@ -14,9 +14,13 @@ sex
 - female=2 
 
 power
-- definiert die Macht des Knotens in der Kolonie (z.B. ist 5=sehr hoch - Personen die in der Führungsebene der Kolonie waren) 
-- 1=sehr gering -- 5=sehr hoch
-- 0=keine Macht (z.B. normale Bewohner der Kolonie und Personen außerhalb der Kolonie, die keinen Einfluss auf die Geschehnisse in CD hatten) 
+- definiert die Macht des Knotens in der Kolonie  
+- 1 = Frauen die es geschafft haben aus der Kolonie zu fliehen
+- 2 = Männer die es geschafft haben aus der Kolonie zu fliehen 
+- 3 = 
+- 4 = Personen die zum Unterdrückungsapparat gehörten
+- 5 = Personen die in der Führungsebene der Kolonie waren
+- 0 = keine Macht (z.B. normale Bewohner der Kolonie und Personen außerhalb der Kolonie, die keinen Einfluss auf die Geschehnisse in CD hatten) 
 
 age
 - 0 = Organisationen/Unternehmen/Verbände
