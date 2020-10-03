@@ -72,6 +72,6 @@ relation (Beziehungsart zwischen den Personen/Organisationen)
 - 4 = hostility Person ging gegen Paul Schäfer und seine Machenschaften vor
 - 5 = abuse Person wurde von Paul Schäfer physisch oder psychisch misshandelt
 - 6 = relatives Verwandschaft von Paul Schäfer
-- 7 = support Leugnung von Paul Schäfers Misshandlungen und anderen negativen Taten die gegen ihn aussagten
+- 7 = support Leugnung von Paul Schäfers Menschenrechtsverletzungen und anderen negativen Taten die gegen ihn aussagten
 - 8 = marriage
  
