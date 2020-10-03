@@ -16,7 +16,7 @@ sex
 power
 - definiert die Macht des Knotens in der Kolonie (z.B. ist 5=sehr hoch - Personen die in der Führungsebene der Kolonie waren) 
 - 1=sehr gering -- 5=sehr hoch
-- 0=keine Macht 
+- 0=keine Macht (z.B. normale Bewohner der Kolonie und Personen außerhalb der Kolonie, die keinen Einfluss auf die Geschehnisse in CD hatten) 
 
 age
 - 0 = Organisationen/Unternehmen/Verbände
