@@ -80,8 +80,8 @@ relation (Beziehungsart zwischen den Personen/Organisationen)
 - 8 = marriage
 
 period (Zeitspanne, in der eine Verbindung zwischen Schäfer und der Person/Organisation bestand)
-- 1 = before vor der Gründung der Colonia Dignidad
-- 2 = duringG während die Colonia Dignidad in Deutschland bestand
-- 3 = duringC während die Colonia Dignidad in Chile bestand
-- 4 = after nach der Colonia Dignidad
+- 1 = vor der Gründung der Colonia Dignidad
+- 2 = während die Colonia Dignidad in Deutschland bestand
+- 3 = während die Colonia Dignidad in Chile bestand
+- 4 = nach der Colonia Dignidad
  
