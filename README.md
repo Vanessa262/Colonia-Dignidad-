@@ -79,6 +79,7 @@ relation (Beziehungsart zwischen den Personen/Organisationen)
 - 7 = support Leugnung von Paul Schäfers Menschenrechtsverletzungen und anderen negativen Taten die gegen ihn aussagten
 - 8 = marriage
 - 9 = Mitglied der "Herren"
+
 period (Zeitspanne, in der eine Verbindung zwischen den Personen/Organisationen bestand)
 - 1 = vor der Gründung der Colonia Dignidad
 - 2 = während die Colonia Dignidad in Deutschland bestand
