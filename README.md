@@ -38,11 +38,13 @@ nationality (aktueller Sitz)
 - 3 = Asien 
 - 4 = Europa
 - 5 = Australien
+- 6 = Tschechien
 
 country
 - 1 = Chile
 - 2 = Deutschland
-- 3 = Argentinien 
+- 3 = Argentinien
+- 4 = Schweiz
 
 subject (Beziehungsebene zu Paul Schäfer)
 - 1 = Politik
