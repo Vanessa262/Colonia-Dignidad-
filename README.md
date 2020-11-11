@@ -44,7 +44,7 @@ country
 - 2 = Deutschland
 - 3 = Argentinien
 - 4 = Schweiz
-- 5 Mexiko
+- 5 = Mexiko
 
 subject (Beziehungsebene zu Paul Schäfer)
 - 1 = Politik
