@@ -20,6 +20,7 @@ power
 - 3 = Personen (Politiker, Justiz usw.) die von außerhalb Einfluss auf die Geschehnisse in der Kolonie hatten
 - 4 = Personen die zum Unterdrückungsapparat gehörten
 - 5 = Personen die in der Führungsebene der Kolonie waren
+- 6 = Personen, die im Waffenhandel involviert waren
 - 0 = keine Macht (z.B. normale Bewohner der Kolonie und Personen außerhalb der Kolonie, die keinen Einfluss auf die Geschehnisse in CD hatten) 
 
 age
@@ -53,6 +54,7 @@ subject (Beziehungsebene zu Paul Schäfer)
 - 7 = Familie
 - 8 = Sonstiges
 - 9 = ging gegen Paul Schäfer vor
+- 10 = Waffenhandel
 
 type 
 - 0=Person
@@ -79,6 +81,7 @@ relation (Beziehungsart zwischen den Personen/Organisationen)
 - 7 = support Leugnung von Paul Schäfers Menschenrechtsverletzungen und anderen negativen Taten die gegen ihn aussagten
 - 8 = marriage
 - 9 = Mitglied der "Herren"
+- 10 = Waffenhandel
 
 period (Zeitspanne, in der eine Verbindung zwischen den Personen/Organisationen bestand)
 - 1 = vor der Gründung der Colonia Dignidad
