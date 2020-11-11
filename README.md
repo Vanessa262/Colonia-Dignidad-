@@ -21,7 +21,8 @@ power
 - 4 = Personen die zum Unterdrückungsapparat gehörten
 - 5 = Personen die in der Führungsebene der Kolonie waren
 - 6 = Personen, die im Waffenhandel involviert waren
-- 0 = keine Macht (z.B. normale Bewohner der Kolonie und Personen außerhalb der Kolonie, die keinen Einfluss auf die Geschehnisse in CD hatten) 
+- 0 = keine Macht (z.B. normale Bewohner der Kolonie und Personen außerhalb der Kolonie, die keinen Einfluss auf die Geschehnisse in CD hatten)
+- 7 = Spionage
 
 age
 - 0 = Organisationen/Unternehmen/Verbände
@@ -61,6 +62,7 @@ subject (Beziehungsebene zu Paul Schäfer)
 type 
 - 0=Person
 - 1=Organisation
+- 2 = Projekt
  
 # Edge-Attribute:
 
