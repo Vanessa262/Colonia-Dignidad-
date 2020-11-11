@@ -38,7 +38,6 @@ nationality (aktueller Sitz)
 - 3 = Asien 
 - 4 = Europa
 - 5 = Australien
-- 6 = Tschechien
 
 country
 - 1 = Chile
