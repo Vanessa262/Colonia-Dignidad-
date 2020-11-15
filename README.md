@@ -75,8 +75,8 @@ to
 - definiert den Empfänger
  
 relation (Beziehungsart zwischen den Personen/Organisationen)
-- 1 = work Geschäftliche Beziehung: Die Beziehung basiert rein auf geschäftlicher Ebene, arbeiten ohne spezielle Unterstützung wie durch beispielsweise Geld
-- 2 = help Unterstützungsbeziehung: Die Beziehung basiert auf aktive Unterstützung/ Zustimmung gegenüber der Colonia Dignidad -> Unterstützung in Kombination mit einem bestimmten Vorteil (korruptiv)
+- 1 = work Geschäftliche Beziehung: Die Beziehung basiert rein auf geschäftlicher Ebene
+- 2 = help Unterstützungsbeziehung: Die Beziehung basiert auf aktiver Unterstützung/ Zustimmung gegenüber der Colonia Dignidad -> Unterstützung oftmals in Kombination mit einem bestimmten Vorteil (korruptiv)
 - 3 = friendship freundschaftliche/private Beziehung zwischen Akteuren
 - 4 = hostility Person ging gegen Paul Schäfer und seine Machenschaften vor
 - 5 = abuse Person wurde von Paul Schäfer physisch oder psychisch misshandelt
