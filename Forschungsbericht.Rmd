@@ -1,0 +1,634 @@
+---
+title: "226305 Colonia Dignidad Netzwerk"
+author: "vb053, jw154, jv039, kr053"
+date: "20/11/2020"
+output: html_document
+---
+
+## Links zu unserem Projekt  
+  
+- [Github](https://github.com/Vanessa262/Colonia-Dignidad-)
+- [Codebuch](https://github.com/Vanessa262/Colonia-Dignidad-/blob/master/README.md)
+- [edgelist](https://github.com/Vanessa262/Colonia-Dignidad-/blob/master/edgelist%20CD99.csv)
+- [nodelist](https://github.com/Vanessa262/Colonia-Dignidad-/blob/master/nodelist%20CD99.csv)
+- [RNotebook](https://github.com/Vanessa262/Colonia-Dignidad-/blob/master/Forschungsbericht.Rmd)
+
+
+## Einletung, Forschungsfrage und Motivation 
+
+Dieser Forschungsbericht soll die Ergebnisse des Teams Colonia Dignidad für das Modul Netzwerk- und Beziehungsmanagement vorstellen. Das Modul erfolgte über das Sommer- und Wintersemester 2020 unter Betreuung und Leitung von Prof. Dr. Swaran Sandhu. 
+
+Colonia Dignidad ist ein frei gewähltes Thema von allen Mitgliedern unseres Teams. Das Thema ist sehr komplex und zeigt verschiedene Formen von Menschenrechtsverletzungen auf. Trotz dessen bestand ein großes Interesse für das Thema und somit ging das Teambuilding sehr schnell. Unser Team war entschlossen sich mit dieser Thematik die nächsten zwei Semester auseinanderzusetzen.
+
+Die Colonia Dignidad wurde 1961 von dem Deutschen Paul Schäfer gegründet und bestand bis 1997. Es war eine Sekte, in der Misshandlungen und sexuelle Gewalt auf dem Tagesplan standen. Ein gutes Wort gibt es über die Sekte nicht. Sie hatte weitläufige politische Verbindungen in Chile und Deutschland, wodurch sie ihre Geschäfte und Geschehnisse so ausüben konnte, wie sie es tat. 
+Keiner aus unserem Team hatte zuvor große Berührungspunkte mit dem Thema. Umso interessanter aber auch schockierender war die intensive Auseinandersetzung während des Forschungsprojekts. Wir wollten verstehen, wie es im Prinzip eine Person schafft, solch eine Organisation aufzubauen, die schlimmsten Verbrechen zu begehen und Jahrzehntelang unentdeckt zu bleiben. Aus diesen ersten Erkenntnissen heraus entwickelte sich folgende Forschungsfrage: Wer waren die Schlüsselcharaktere im inner und outer circle der Colonia Dignidad und wie trugen sie zum jahrelangen “Erfolg”, dem Wachstum und der Macht dieser Organisation bei?
+
+Während unserer Forschung behandelten wir Paul Schäfer als zentrale Person bei der Recherche nach bedeutenden Beziehungen, was durch seine Rolle als Gründer und Oberhaupt des Ganzen am meisten Sinn macht. Die Netzwerke sind sehr verzwickt und die Recherche sowie Zuordnung von Personen war nicht immer einfach. Trotz dessen konnten wir einige interessante Netzwerke bezüglich unserer Forschungsfrage entwickeln, welche im Folgenden im Detail dargestellt, erläutert und analysiert werden. 
+
+
+## Forschungsstand 
+
+Über Colonia Dignidad haben die Medien in der Vergangenheit viel berichtet. Manche Strafprozesse zu den Verbrechen in der Kolonie sind noch heute aktuell. Somit ist das komplexe Thema der Kolonie noch immer präsent. Die journalistischen Werke behandeln meistens Teilbereiche des Geschehens in der Kolonie, wie beispielsweise die Flucht der Mitglieder, deren Leben nach der Kolonie oder auch Paul Schäfers Missbrauch von Opfern der Kolonie. Solche Geschichten sind auf den Webseiten der deutschen überregionalen Zeitungen leicht auffindbar.
+
+Unser Fokus lag jedoch an den Schlüsselcharakteren des inner und outer circle der Colonia Dignidad und wie sie zum jahrelangen “Erfolg”, dem Wachstum und der Macht dieser Organisation beigetragen haben. Zu diesem Thema ist der Forschungsstand sehr dürftig, auch im Bereich der Netzwerkforschung sind bisher keine Forschungsarbeiten zur Colonia Dignidad oder Paul Schaefer vorhanden. Die  journalistischen Werke von Dieter Maier, sowie sein Buch “Colonia Dignidad: Auf den Spuren eines deutschen Verbrechens in Chile”, gehen in die ähnliche Richtung wie unsere Forschungsfrage. Genauso wie das Buch “Das Blendwerk: Von der `Colonia Dignidad´ zur `Villa Baviera´” von Horst Rückert. Auch wenn der Fokus dieser Publikationen nicht nur Paul Schaefer war, sondern die Geschehnisse in der Colonia Dignidad allgemein, waren diese zwei Werke die Primärquellen für unser Netzwerk.
+
+
+## Teilnetzwerke im Vergleich
+
+Bei unserer Forschung haben wir folgende Teilbereiche näher analysiert: Führungsebene, Waffenhandel, Mitglieder der Herren, geschäftliche Beziehungen und Unterstützungsbeziehungen. Diese dazugehörigen Teilnetzwerke erschienen uns im Hinblick auf unsere Forschungsfrage von hoher Relevanz, da sie besonders wichtig für die Organisation und das Funktionieren der Kolonie waren. Durch die Erstellung dieser Teilnetzwerke wurde unsere Annahme bestätigt. Es gab sogenannte Strippenzieher neben Paul Schäfer, die häufig in all diesen Teilnetzwerken auftauchen. Wichtige chilenische Akteure stammten zum Großteil aus der Politik.
+
+Auffällig bei den Teilnetzwerken der Führungsebene, den geschäftlichen Beziehungen sowie den Unterstützungsbeziehungen ist, dass es sehr große und verzwickte Netzwerke sind. Das heißt, dass viele der Akteure untereinander in Kontakt standen, sei es direkt oder indirekt. Dies ist ein erster Hinweis darauf, wieso die Kolonie so gut organisiert war und funktionierte. Es gab viele Kontakte in verschiedenen Bereichen in Chile und Deutschland wie Justiz oder Politik, die durch die Strippenzieher hergestellt werden konnten. Bei allen Teilnetzwerken stammt der Großteil der Akteure aus Deutschland, was darauf zurückzuführen ist, dass Paul Schäfer Deutscher war und somit beispielsweise auch die Führungsebene fast ausschließlich aus Deutschen bestand. 
+
+Bei der Führungsebene ist ebenfalls auffällig, dass sich in diesem Netzwerk die Verbindungen zwischen den Akteuren überschneiden und sich häufen, wodurch es nahezu unübersichtlich wird. Genau diese Akteure sind ebenfalls im Teilnetzwerk der Mitglieder der Herren zu finden, welche man als Beraterkreis Schäfers bezeichnen kann. Sie waren also sein engster Kreis, wodurch sich erklären lässt, weshalb hier so viele Verbindungen in der Führungsebene zu finden sind, da sie viele gemeinsame Schnittpunkte in der Kolonie hatten.
+
+Das Teilnetzwerk des Waffenhandels sowie der Mitglieder der Herren weist einen Unterschied auf. Hier sind deutlich weniger Beziehungen aufzufinden, als in den anderen Teilnetzwerken. Wie eben schon erwähnt, liegt das wahrscheinlich daran, dass die Mitglieder der Herren ein vertrauter Kreis für Schäfer waren. Alle Akteure, die sich hier befinden, sind ebenfalls im Führungskreis tätig gewesen. Beim Teilnetzwerk des Waffenhandels sind einige Akteure zu finden, die sonst nicht auftauchen. So kommt es, dass hier beispielsweise Personen wie Hans Ulrich Rudel oder Klaus Barbie auftauchen, die durch Gerhard Mertins im indirekten Kontakt mit der Kolonie standen was den Waffenhandel betraf, aber nichts mit den Geschehnissen innerhalb der Kolonie zu tun hatten. Beim Waffenhandel kannten sich die Akteure nicht zwingend untereinander.
+
+Das Gleiche ist bei den geschäftlichen Beziehungen und den Unterstützungsbeziehungen festzustellen. Oftmals sind Akteure aus den Geschäftlichen Beziehungen auch im Netzwerk der Unterstützung zu finden, es gibt also Überschneidungen. Das Phänomen der Überschneidungen von Akteuren lässt sich auf alle Netzwerke übertragen.
+
+
+## Datenerhebung 
+
+Für unsere Forschung wurden hauptsächlich die offizielle Dokumentation „Colonia Dignidad“, die offizielle und gleichnamige Website über die Kolonie sowie zwei Bücher, „Colonia Dignidad“ von Dieter Maier und „Das Blendwerk“ von Horst Rückert, als fachliche Quellen genutzt. 
+ 
+In der Summe sind die Quellen allerdings nicht sehr zahlreich und umfangreich, wodurch uns etwas erschwert wurde brauchbare und seriöse Quellen zu finden. Allerdings konnte uns die Verfasserin der „Colonia Dignidad“ Website weiterhelfen. Nach der Kontaktaufnahme empfahl sie uns die zwei Bücher sowie einen Schriftsatz, verfasst von Edeltraud Bohnau (einer ehemaligen Koloniebewohnerin), in dem viele Namen der Koloniebewohner zu finden waren, aber auch viel über deren Beziehungen zu lesen war. Die Recherche bestand hauptsächlich daraus, Details über die verschiedenen Beziehungen herauszufinden. Daher wurden jegliche seriöse Quellen, seien es Veröffentlichungen der Presse, der offizielle Blog, die offizielle Dokumentation über die Sekte sowie die zwei in der HdM-Bibliothek erhältlichen Bücher, von uns zu Rate gezogen. Um einzelne Beziehungen vollständig, also mit allen Attributen, darzustellen, war es oft nötig mehr als nur eine Quelle für diese eine Verbindung zu verwenden. Die Recherche glich oftmals einem Puzzle, zu dem man die verschiedenen Teile erst noch finden musste, um sie dann zusammenzusetzen.
+
+# Datenbereinigung 
+
+Aufgrund des sperrigen Forschungsstands und der Akteure die in unserer verwendeten Literatur teilweise mehrere Namen hatten, gab es eine erhöhte Auffäligkeit für Dopplungen und Ungenauigkeiten. Somit mussten unsere Edge- und Nodelist regelmäßig aktualisiert und überprüft werden. Zudem hatten einige Akteure mehrere Kodierungen für Relation oder Power, was dazu führte, dass ihre Verbindungen bei der Visualisierung nicht angezeigt wurden. Durch ein gründliches Überarbeiten der Listen konnten alle aufgekommenen Probleme beseitigt werden. 
+
+# Codebuch
+
+Das Codebuch wurde bereits am Anfang festgelegt. Während der Recherche mussten wir allerdings unser Codebuch teilweise abändern, da sich manche Attribute als irrelevant oder nicht verwendbar zeigten. Außerdem wollten wir während der Forschung noch weitere Aspekte, wie die Dauer von einzelnen Beziehungen einfließen lassen. Am meisten arbeiteten wir an dem Attribut “relation”, um die bestmögliche Aussagekraft zu erreichen.
+
+## Analyse und Interpretation
+
+```{r Netzwerk einlesen, echo=FALSE, message=FALSE, warning=TRUE, paged.print=FALSE}
+
+library(igraph)
+remove(cd)
+remove(el)
+remove(nodes)
+
+
+```
+
+```{r Gesamtnetzwerk}
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/edgelist%20CD99.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/nodelist%20CD99.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt
+# 
+cd <- graph_from_data_frame(el, nodes, directed=T)
+cd
+
+plot(cd)
+
+#cd
+# Nun wird die Visualisierung der Knoten und Kanten angepasst.
+#Graphisch werden Organisationen und Projekte anders dargestellt als Akteure
+
+#set shapes based on type
+V(cd)[V(cd)$type == 0]$shape <- "circle" # Personen werden als Kreise dargestellt
+V(cd)[V(cd)$type == 1]$shape <- "square" # Organisationen werden als Quadrate dargestellt
+V(cd)[V(cd)$type == 2]$shape <- "sphere" # Projekte werden als Kugeln dargestellt
+V(cd)$shape 
+
+
+V(cd)[V(cd)$nationality == 2]$color <- "red" # Personen die aus Südamerika kommen, werden in Farbe red dargestellt
+V(cd)$nationality
+V(cd)[V(cd)$nationality == 4]$color <- "blue" # Personen die aus Europa kommen, werden in Farbe blue dargestellt 
+V(cd)$nationality
+
+# definiert die Farbe aller Kanten
+E(cd)$color <- "grey"
+
+list.vertex.attributes(cd)
+vertex.attributes(cd)
+list.edge.attributes(cd)
+edge.attributes(cd)
+
+plot(cd,
+     layout=layout_with_kk,
+     asp=0, # definiert, dass der ganze Platz ausgenutzt werden soll
+     edge.curved=curve_multiple(cd), # verhindert, dass sich Kanten überlagern
+     vertex.size=5,
+     arrow.size=0.3,
+     vertex.shapes="circle",
+     vertex.shapes="Square",
+     vertex.shapes="sphere",
+     main="Gesamtnetzwerk",
+     sub="n=89, Kreis=Person, Quadrat=Organisation, Kugel=Projekt"
+     )
+
+
+# Mit diesem Gesamtnetzwerk möchten wir die verschiedenen Verbindungen von Paul Schaefer und somit auch von Colonia Dignidad zeigen. Durch die zentrale Rolle von Paul Schaefer verwenden wir ihn representativ fuer Colonia Dignidad. Neben den Beziehungen von Paul Schaefer werden weitere relevante Verbindungen aus den Bereichen: Fuehrungskreis, Waffenhandel und externe Unterstuetzungen aufgezeigt.
+# Das Netzwerk ist gerichtet
+# Von der Art ist es ein Two-Mode Netzwerk
+# ungewichtetes Netzwerk 
+
+```
+
+```{r }
+
+edge_density(cd) #berechnet die Dichte des Netzwerkes
+
+#Im Gesamtnetzwerk sind 7,7% der Beziehungen zwischen den Knoten realisiert. 
+
+farthest_vertices(cd) #welche Knoten am weitesten voneinander entfernt sind
+
+get_diameter(cd) #Durchmesser ist die Pfaddistanz der am weitesten voneinander entfernten Knoten
+
+#Der längste Pfad durch das Netzwerk ist: "Mario Romero", "Mile Mavroski", "Paul Schaefer", "Augusto Pinochet", "SIM". Demzufolge sind "Mario Romero" und das Projekt SIM am weitesten voneinander entfernt, mit einer Distanz von 4 Schritten. 
+
+```
+
+```{r Cluster}
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/edgelist%20CD99.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/nodelist%20CD99.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt
+# 
+cd <- graph_from_data_frame(el, nodes, directed=T)
+cd
+
+cluster_walktrap(cd)
+
+cw_cd <- cluster_walktrap(cd)
+modularity(cw_cd)
+membership(cw_cd)
+
+
+plot(cw_cd,
+     cd,
+     asp=0,
+     layout=layout_with_kk,
+     edge.curved=curve_multiple(cd), # verhindert, dass sich Kanten überlagern
+     vertex.color="grey",
+     edge.arrow.size=.10,
+     layout=layout_nicely,
+     vertex.size=15,
+     main ="Cluster des Gesamtnetzwerks"
+)
+
+
+```
+
+```{r Teilnetzwerk Fuehrungsebene}
+
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/edgelist%20CD99.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/nodelist%20CD99.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt
+# 
+cd <- graph_from_data_frame(d=edgematrix, vertices=nodes, directed=T)
+
+#Löscht alle nummerischen Kodierungen, außer 5
+fuehrung <- delete_vertices(cd, V(cd)[power != "5"])
+fuehrung
+
+V(fuehrung)[V(fuehrung)$country == 1]$color <- "red" # Mitglieder der Führungsebene die aus Chile kommen, werden rot hervogehoben 
+
+V(fuehrung)[V(fuehrung)$country == 2]$color <- "yellow" # Mitglieder der Führungsebene die aus Deutschland kommen, werden gelb hervogehoben 
+
+#Die Farben sollen zeigen, wie groß der Einfluss des jeweiligen Landes war. 
+
+
+plot(fuehrung,
+     layout=layout_with_kk,
+     asp=0, #definiert, dass der ganze Raum ausgenutzt werden soll
+     layout=layout_with_kk,
+     edge.curved=curve_multiple(fuehrung), # verhindert, dass sich Kanten überlagern
+     vertex.size=10, # setzt die Größe der Knoten auf 10
+     vertex.label.color = "black",
+     vertex.label.family = "sans", #gibt die Schriftart an
+     main="Fuehrungsebene der Colonia Dignidad")
+
+# Dieses Teilnetzwerk zeigt den Fuehrungskreis der Colonia Dignidad auf. Wir wollen zeigen welche Personen neben Paul Schaefer eine wichtige Rolle fuer die und in der Kolonie gespielt haben. Diese Personen waren Ausloeser fuer verschiedene Geschehnisse in der Kolonie, welche ohne diese Schluesselcharaktere moeglicherweise nicht so stattgefunden haetten.
+
+
+fuehrung_cd <- cluster_walktrap(fuehrung) 
+modularity(fuehrung_cd)
+membership(fuehrung_cd)
+
+plot(fuehrung_cd,
+     fuehrung,
+     asp=0,
+     layout=layout_with_kk,
+     edge.curved=curve_multiple(cd), # verhindert, dass sich Kanten überlagern
+     vertex.color="grey",
+     edge.arrow.size=.10,
+     layout=layout_nicely,
+     vertex.size=15,
+     main ="Cluster in der Fuehrungsebene"
+)
+
+
+
+```
+
+```{r Teilnetzwerk Waffenhandel}
+
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/edgelist%20CD99.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/nodelist%20CD99.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt
+# 
+cd <- graph_from_data_frame(d=edgematrix, vertices=nodes, directed=FALSE)
+
+
+waffenhandel <- subgraph.edges(cd,E(cd)[E(cd)$relation == 10])
+waffenhandel
+
+
+plot(waffenhandel,
+     layout=layout_with_kk,
+     asp=0, # definiert, dass der ganze Platz ausgenutzt werden soll
+     edge.curved=curve_multiple(cd), # verhindert, dass sich Kanten überlagern
+     arrow.size=0.3,
+     main ="Waffenhandel")
+
+#Dieses Teilnetzwerk zeigt auf welche Akteure in- und außerhalb der Kolonie maßgeblich am Waffenhandel beteiligt waren. 
+
+
+waffenhandel_cd <- cluster_walktrap(waffenhandel) 
+modularity(waffenhandel_cd)
+membership(waffenhandel_cd)
+
+plot(waffenhandel_cd,
+     waffenhandel,
+     asp=0,
+     layout=layout_with_kk,
+     edge.curved=curve_multiple(cd), # verhindert, dass sich Kanten überlagern
+     vertex.color="yellow",
+     edge.arrow.size=.10,
+     layout=layout_nicely,
+     vertex.size=15,
+     main ="Cluster im Teilnetzwerk Waffenhandel" )
+
+```
+
+```{r Teilnetzwerk Herren}
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/edgelist%20CD99.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/nodelist%20CD99.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt
+# 
+cd <- graph_from_data_frame(d=edgematrix, vertices=nodes, directed=T)
+
+herren <- subgraph.edges(cd, E(cd)[relation ==" 9"])
+herren
+
+plot(herren,
+     asp=0, #definiert, dass der ganze Raum ausgenutzt werden soll
+     edge.curved=curve_multiple(herren), # verhindert, dass sich Kanten überlagern
+     vertex.size=10, # setzt die Größe der Knoten auf 10
+     vertex.label.color = "black",
+     vertex.label.family = "sans", #gibt die Schriftart an
+     edge.arrow.size=.2,
+     edge.color="red",
+     vertex.color="grey75",
+     arrow.size=0.3,
+     vertex.frame.color=NA,
+     layout=layout_with_kk,
+     main="Mitglieder der Herren")
+
+#Dieses Teilnetzwerk stellt die Mitglider der Herren in der Colonia Dignidad dar, welche als Paul Schaefers Berater fungierten.
+
+herren_cd <- cluster_walktrap(herren) 
+modularity(herren_cd)
+membership(herren_cd)
+
+plot(herren_cd,
+     herren,
+     asp=0,
+     layout=layout_with_kk,
+     edge.curved=curve_multiple(cd), # verhindert, dass sich Kanten überlagern
+     vertex.color="green",
+     edge.arrow.size=.10,
+     layout=layout_nicely,
+     vertex.size=15,
+     main ="Cluster im Teilnetzwerk Herren" )
+
+```
+
+```{r Teilnetzwerk geschaeftliche Beziehungen}
+
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/edgelist%20CD99.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/nodelist%20CD99.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt
+# 
+cd <- graph_from_data_frame(d=edgematrix, vertices=nodes, directed=T)
+
+
+work <- subgraph.edges(cd, E(cd)[relation ==" 1"])
+work
+
+
+plot(work,
+     asp=0, # definiert, dass der ganze Platz ausgenutzt werden soll
+     edge.color="pink2",
+    vertex.color="yellow",
+     layout=layout_with_kk,
+     main="Geschaeftliche Beziehungen")
+
+# Dieses Teilnetzwerk zeigt Beziehungen auf, die relevant fuer geschaeftliche Handlungen im Kontext der Kolonie waren. 
+
+geschaeftlich_cd <- cluster_walktrap(work) 
+modularity(geschaeftlich_cd)
+membership(geschaeftlich_cd)
+
+plot(geschaeftlich_cd,
+     work,
+     asp=0,
+     layout=layout_with_kk,
+     edge.curved=curve_multiple(cd), # verhindert, dass sich Kanten überlagern
+     vertex.color="yellow",
+     edge.arrow.size=.10,
+     layout=layout_nicely,
+     vertex.size=15,
+     main ="Cluster im Teilnetzwerk der geschaeftlichen Beziehungen" )
+
+```
+
+```{r Teilnetzwerk Unterstuetzngsbeziehungen}
+
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/edgelist%20CD99.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/nodelist%20CD99.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt
+# 
+cd <- graph_from_data_frame(d=edgematrix, vertices=nodes, directed=T)
+
+
+help <- subgraph.edges(cd, E(cd)[relation ==" 2"])
+help
+
+plot(help,
+     edge.arrow.size=.2,
+     asp=0, # definiert, dass der ganze Platz ausgenutzt werden soll
+     edge.color="red",
+     vertex.color="grey75",
+     vertex.frame.color=NA,
+     layout=layout_with_kk,
+     main="Unterstuetzungsbeziehung")
+
+# Die Beziehungen in diesem Teilnetzwerk basieren auf aktiver Unterstützung/Zustimmung gegenüber der Colonia Dignidad -> Unterstützung oftmals in Kombination mit einem bestimmten Vorteil.
+
+unterstuetzung_cd <- cluster_walktrap(help) 
+modularity(unterstuetzung_cd)
+membership(unterstuetzung_cd)
+
+plot(unterstuetzung_cd,
+     help,
+     asp=0,
+     layout=layout_with_kk,
+     edge.curved=curve_multiple(cd), # verhindert, dass sich Kanten überlagern
+     vertex.color="pink",
+     edge.arrow.size=.20,
+     layout=layout_nicely,
+     vertex.size=15,
+     main ="Cluster im Teilnetzwerk der Unterstuetzungsbeziehungen" )
+
+```
+
+```{r Zentralitätsmaße}
+
+#Berechnung des höchsten Degree-Werts
+
+
+dcd <- degree(cd)
+dcd
+
+max(dcd)
+which.max(dcd)
+#Paul Schaefer hat mit 273 den höchsten Degree-Wert. Er ist der Knoten, der mit den meisten Kanten und somit auch mit den meisten Knoten verbunden ist.
+
+#Berechnung des Betweenness-Werts
+
+
+bcd <- betweenness(cd, normalized=T)
+bcd
+
+max(bcd)
+which.max(bcd)
+
+# Paul Schaefer ist derjenige mit der Broker-Funktion. Er hat eine entscheidende Rolle für die Erreichung anderer Knoten.
+
+```
+
+
+```{r Einzelne Ego-Netzwerke - Kurt Schnellenkamp}
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/edgelist%20CD99.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/nodelist%20CD99.csv", header=T, as.is=T, sep = ",")
+edgematrix <-as.matrix(el)
+
+cd <- graph_from_data_frame(d=edgematrix, vertices=nodes, directed=T)
+cd
+
+
+# erzeugt ein Egonetzwerk von Kurt Schnellenkamp
+ego_ks <- make_ego_graph(cd, order = 1, nodes = V(cd)$name == "Kurt Schnellenkamp", mode ="all")
+
+#notwendiger Zwischenschritt für die Erstellung des igraph-Objekts 
+ego_ks <- ego_ks[[1]]
+ego_ks
+
+#ego_ks
+ego_ks <- simplify(ego_ks, remove.multiple = TRUE)# entfernt alle doppelten / mehrfachen Beziehungen zwischen zwei Knoten, da es ausreicht, eine Verbindung zu sehen, um zu wissen, dass die Akteure etwas miteinander zu tun hatten
+
+plot(ego_ks,
+     layout=layout_with_fr,
+     asp=0, # definiert, dass der ganze Platz ausgenutzt werden soll
+     main="Ego-Netzwerk Kurt Schnellenkamp",
+     vertex.color=NA,
+     vertex.label.color="black",
+     vertex.frame.size="5",
+     vertex.label.size="8",
+     edge.color="red",
+     edge.arrow.size=.3)
+
+#Aufgrund seines hohen Stellenwertes den er durch seine Position in der Fuehrungsebene und seinem Platz bei den Herren erlangte, stellt Kurt Schnellenkamp eine wichtige Person mit einem großen Netzwerk dar. 
+
+```
+
+```{r Einzelne Ego-Netzwerke - Hartmut Hopp}
+
+ego_hh<- make_ego_graph(cd, order=1, nodes = V(cd)$name == "Hartmut Hopp", mode = "all") # erstellt ein Ego-Netzwerk von Hartmut Hopp
+
+# notwendiger Zwischenschritt für die Erstellung des igraph-Objekts
+ego_hh <- ego_hh[[1]]
+
+#ego_hh
+ego_hh <- simplify(ego_hh, remove.multiple = TRUE)# entfernt alle doppelten / mehrfachen Beziehungen zwischen zwei Knoten, da es ausreicht, eine Verbindung zu sehen, um zu wissen, dass die Akteure etwas miteinander zu tun hatten
+
+#ego_hh
+
+plot(ego_hh, 
+     asp=0, # definiert, dass der ganze Platz ausgenutzt werden soll
+     layout=layout_with_kk,
+     main="Hartmut Hopp",
+     edge.color="grey40", # definiert die Kantenfarbe
+     vertex.label.size=2,
+     vertex.label.color="black",
+     vertex.label.family="sans",
+     vertex.frame.color=NA, # entfernt den Rahmen um die Knoten
+     vertex.size=10, # setzt die Knotengröße auf 10
+     asp=0, # definiert, dass der gesamte Raum ausgenutzt werden soll,
+     rescale=T)
+
+#Als Person, die bei Paul Schaefer aufgewachsen ist und spaeter der Koloniearzt sowie Schaefers rechte Hand war, weist Hartmut Hopp wichtige Verbindungen auf. 
+
+```
+
+
+```{r Einzelne Ego-Netzwerke - Augusto Pinochet}
+
+ego_ap<- make_ego_graph(cd, order=1, nodes = V(cd)$name == "Augusto Pinochet", mode = "all") # erstellt ein Ego-Netzwerk von Augusto Pinochet
+
+# notwendiger Zwischenschritt für die Erstellung des igraph-Objekts
+ego_ap <- ego_ap[[1]]
+
+#ego_ap
+ego_ap <- simplify(ego_ap, remove.multiple = TRUE)# entfernt alle doppelten / mehrfachen Beziehungen zwischen zwei Knoten, da es ausreicht, eine Verbindung zu sehen, um zu wissen, dass die Akteure etwas miteinander zu tun hatten
+
+#ego_ap
+
+plot(ego_ap,
+     asp=0, # definiert, dass der ganze Platz ausgenutzt werden soll
+     layout=layout_with_kk,
+     main="Augusto Pinochet",
+     edge.color="blue", # definiert die Kantenfarbe
+     vertex.label.size=2,
+     edge.arrow.size=.3,
+     vertex.label.color="black",
+     vertex.label.family="sans",
+     vertex.frame.color=NA, # entfernt den Rahmen um die Knoten
+     vertex.size=10, # setzt die Knotengröße auf 10
+     asp=0, # definiert, dass der gesamte Raum ausgenutzt werden soll,
+     rescale=T)
+
+# Augusto Pinochet war chilenischer Diktator, ein starker Verbuendeter sowie Unterstuetzer Paul Schaefers. Er stellte eine politische Schluesselfigur dar.
+
+
+```
+
+## Fazit 
+
+Basierend auf der Grundlage unserer Forschungsfrage “Wer waren die Schlüsselcharaktere im inner und outer circle der Colonia Dignidad und wie trugen sie zum jahrelangen `Erfolg´, dem Wachstum und der Macht dieser Organisation bei?”, sind wir zu folgendem Fazit gelangt:
+
+Auch wenn Paul Schäfer als Gründer der Colonia Dignidad eine tragende und unverzichtbare Rolle hatte, war er nicht der Einzige, der die Kolonie am Leben erhielt. Er hatte innerhalb der Sekte viele Unterstützer, zusätzlich aber auch Support von Externen. Bereits an den mächtigen und vielfältigen Mitgliedern der Führungsebene ist gut zu erkennen, wie weitläufig die Verbindungen waren und somit, in wie viele verschiedene Bereiche diese Verbindungen reichten. Zu anderen mächtigen und vor allem wichtigen Schlüsselfiguren der Colonia Dignidad gehört unter anderem auch Augusto Pinochet, welcher Beispielsweise die Verbindungen in militärische und politische Bereiche ermöglichte und vertiefte. Dazu zählten auch Gerhard Mertins, Hartmut Hopp, Kurt Schnellenkamp, Hugo Baar sowie die weiteren Mitglieder der Herren und der Führungsebene. Diese Männer waren maßgeblich an allen Verbrechen beteiligt und haben während ihrer Zeit in der Sekte Paul Schäfer in seinem Tun unterstützt.
+
+Abschließend kann man sagen, dass es nicht eine Person war, die die Colonia Dignidad zu dem gemacht hat, was sie am Ende war. Es waren viele einflussreiche und in verschiedenen Bereichen verkehrende Menschen daran beteiligt, dass die Kolonie zu einem derart großen Machtzentrum wachsen konnte und dieses viele Jahre beibehalten werden konnte.
+
+# Limitationen
+
+Wir haben alle zu unserer Verfügung stehenden Recherchemittel für die Forschung und Ausarbeitung der Netzwerke genutzt, allerdings gibt es keine Garantie auf Vollständigkeit. Auch wenn man dies in einem generellen Kontext betrachtet, wird es nicht möglich sein, alle Koloniemitglieder aufzuzeigen. Dazu ist der aktuelle Dokumentationsstatus nicht vollständig und umfassend genug. Den Geschehnissen in der Sekte wurde eine lange Zeit zu wenig Aufmerksamkeit geschenkt. Daher liegen unsere Grenzen darin, dass die Informationen weniger sind, als sie hätten sein können, wenn die Menschen früher oder gar mehr auf die Missstände in der Kolonie aufmerksam gemacht hätten.
+ 
+# Ausblick
+
+Die Villa Baviera wird als Nachfolger der Colonia Dignidad gesehen. Hier gibt es durchaus Bereiche, die noch zu erforschen sind. Man könnte sich damit beschäftigen, wer heute dort lebt und wie deren Alltag ist. Vor allem aber auch wo die Verbindungen und Gemeinsamkeiten zur ehemaligen Colonia Dignidad liegen.
+Das Mitgliedernetzwerk weiter auszubauen wäre außerdem relevant, denn dadurch könnte irgendwann die Vollständigkeit eines Colonia-Dignidad-Netzwerkes gewährleistet werden.
+Bezüglich der Täter der Kolonie sowie deren Verurteilungsstand sollte auch noch mehr geforscht werden. Hierbei gibt es noch viele Lücken. 
+
+# Literatur 
+
+- Adolf Herkenrath. Abgerufen von https://de.wikipedia.org/wiki/Adolf_Herkenrath
+
+- Am Schauplatz Chile: Colonia Dignidad. Abgerufen von https://www.robert-lessmann.com/am-schauplatz-chile-colonia-dignidad#:%7E:text=Er%20war%20mehrfach%20in%20der,Umfeld%3B%20auch%20der%20Fernsehmoderator%20und
+
+- Augusto Pinochet - Biografie WHO’S WHO. Abgerufen von https://whoswho.de/bio/augusto-pinochet.html
+
+- Blow Up. (1987). Abgerufen von https://www.spiegel.de/spiegel/print/d-13524874.html
+
+- Chile, Deutschland: Wir dokumentieren: Piñera beruft ehemaligen Unterstützer der Colonia Dignidad zum Justizminister. (2018). Abgerufen von https://www.npla.de/thema/memoria-justicia/wir-dokumentieren-pinera-beruft-ehemaligen-unterstuetzer-der-colonia-dignidad-zum-justizminister/
+
+- Colonia Dignidad. Abgerufen am 18. November 2020, von https://www.antifainfoblatt.de/artikel/colonia-dignidad
+
+- Colonia Dignidad. Public History Forschungsblog. Abgerufen am 18. November von https://colonia-dignidad.com/
+
+- Dusch, K. (2020). Inkarnation des Bösen. Abgerufen von https://www.arte-magazin.de/colonia-dignidad/
+
+- Erich Strätling. Abgerufen von https://de.wikipedia.org/wiki/Erich_Str%C3%A4tling
+
+- Georg Packmor/Lotti Peters. Abgerufen von https://chort.square7.ch/Mb/fam02702.htm
+
+- Gerhard Mertins. Abgerufen von https://de.wikipedia.org/wiki/Gerhard_Mertins
+
+- Gronauer Baptisten-Pastor besucht die Colonia Dignidad: Auf Spurensuche in Chile. Abgerufen von https://www.wn.de/Muensterland/Kreis-Borken/Gronau/3692985-Gronauer-Baptisten-Pastor-besucht-die-Colonia-Dignidad-Auf-Spurensuche-in-Chile
+
+- Hausen, J. (17. April 2020). Hausarrest in Ex-Colonia Dignidad? Schwere Anschuldigungen von Bewohnern. Abgerufen von https://www.insidechile.de/hausarrest-in-ex-colonia-dignidad-schwere-anschuldigungen-von-bewohnern/
+
+- Maier, D. (2016). Colonia Dignidad: Auf den Spuren eines deutschen Verbrechens in Chile. Stuttgart: Schmetterling Verlag.
+
+- Niewendick, M. (2016). Sekte „Colonia Dignidad“ : Der Tod ist ein Meister aus Krefeld. Abgerufen von https://www.tagesspiegel.de/gesellschaft/panorama/sekte-colonia-dignidad-der-tod-ist-ein-meister-aus-krefeld/12978034.html
+
+- Politische Häftlinge in der Colonia Dignidad - der Fall Mile Mavroski. Abgerufen von https://colonia-dignidad.com/milemavroski/
+
+- Rückert, H. (2014). Das Blendwerk: Von der „Colonia Dignidad“ zur „Villa Baviera“. München: A1 Verlag.
+
+- Schallende Ohrfeige für die Opfer: Sektenarzt der Colonia Dignidad bleibt auf freiem Fuß. Abgerufen von https://www.sozialismus.de/kommentare_analysen/detail/artikel/schallende-ohrfeige-fuer-die-opfer-sektenarzt-der-colonia-dignidad-bleibt-auf-freiem-fuss/
+
+- Seher, D. (2018). Colonia Dignidad: Aufklärung der Folterverbrechen rückt näher. Abgerufen von https://correctiv.org/ruhr/2018/04/05/colonia-dignidad-aufklaerung-der-folterverbrechen-rueckt-naeher/
+
+- Unterdrückung und Folter in der »Kolonie der Würde«. Abgerufen von https://igmetall-ennepe-ruhr-wupper.de/unterdrueckung-und-folter-in-der-kolonie-der-wuerde/
+
+- Vogt, J. (28. Dezember 2005). Deutsche Ärztin wegen Folter in Chile in Haft. Abgerufen von https://taz.de/!496847/
+
+- Walther Rauff. Abgerufen von https://de.wikipedia.org/wiki/Walther_Rauff
+
+- Weber, G. (10. Mai 1988). Freizeitspaß mit der Colonia Dignidad. Abgerufen von https://taz.de/!1849217/
+
+
+## Team und Arbeitsaufwand
+
+*Teammitglieder*: 
+Karolin Rufner, Julia Wahl, Julia Völker, Vanessa Borevac 
+
+*Arbeitsaufwand*:
+
+Karolin Rufner: Literaturrecherche (insbesondere Erstellung der Nodelist), Coding,
+Forschungsbericht 
+
+Julia Wahl: Literaturrecherche, Coding, Forschungsbericht, Bereinigung
+
+Julia Völker: Literaturrecherche (insbesondere Erstellung der Nodelist), Coding, Forschungsbericht
+
+Vanessa Borevac: RSkript, Literaturrecherche, Coding, Bereinigung, Forschungsbericht 
