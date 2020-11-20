@@ -1,0 +1,505 @@
+---
+title: "226305 Colonia Dignidad Netzwerk"
+author: "vb053, jw154, jv039, kr053"
+date: "20/11/2020"
+output: html_document
+---
+
+## Links zu meinem Projekt  
+  
+- [Github](https://github.com/Vanessa262/Colonia-Dignidad-)
+- [Codebuch](https://github.com/Vanessa262/Colonia-Dignidad-/blob/master/README.md)
+- [edgelist](https://github.com/Vanessa262/Colonia-Dignidad-/blob/master/edgelist%20CD99.csv)
+- [nodelist](https://github.com/Vanessa262/Colonia-Dignidad-/blob/master/nodelist%20CD99.csv)
+- [RNotebook](https://github.com/Vanessa262/Colonia-Dignidad-/blob/master/Forschungsbericht.Rmd)
+
+
+```{r Netzwerk einlesen, echo=FALSE, message=FALSE, warning=TRUE, paged.print=FALSE}
+
+library(igraph)
+remove(cd)
+remove(el)
+remove(nodes)
+
+
+```
+
+```{r Gesamtnetzwerk}
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/edgelist%20CD99.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/nodelist%20CD99.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt
+# 
+cd <- graph_from_data_frame(el, nodes, directed=T)
+cd
+
+plot(cd)
+
+#cd
+# Nun wird die Visualisierung der Knoten und Kanten angepasst.
+#Graphisch werden Organisationen und Projekte anders dargestellt als Akteure
+
+#set shapes based on type
+V(cd)[V(cd)$type == 0]$shape <- "circle" # Personen werden als Kreise dargestellt
+V(cd)[V(cd)$type == 1]$shape <- "square" # Organisationen werden als Quadrate dargestellt
+V(cd)[V(cd)$type == 2]$shape <- "sphere" # Projekte werden als Kugeln dargestellt
+V(cd)$shape 
+
+
+V(cd)[V(cd)$nationality == 2]$color <- "red" # Personen die aus Südamerika kommen, werden in Farbe red dargestellt
+V(cd)$nationality
+V(cd)[V(cd)$nationality == 4]$color <- "blue" # Personen die aus Europa kommen, werden in Farbe blue dargestellt 
+V(cd)$nationality
+
+# definiert die Farbe aller Kanten
+E(cd)$color <- "grey"
+
+list.vertex.attributes(cd)
+vertex.attributes(cd)
+list.edge.attributes(cd)
+edge.attributes(cd)
+
+plot(cd,
+     layout=layout_with_kk,
+     asp=0, # definiert, dass der ganze Platz ausgenutzt werden soll
+     edge.curved=curve_multiple(cd), # verhindert, dass sich Kanten überlagern
+     vertex.size=5,
+     arrow.size=0.3,
+     vertex.shapes="circle",
+     vertex.shapes="Square",
+     vertex.shapes="sphere",
+     main="Gesamtnetzwerk",
+     sub="n=89, Kreis=Person, Quadrat=Organisation, Kugel=Projekt"
+     )
+
+
+# Mit diesem Gesamtnetzwerk möchten wir die verschiedenen Verbindungen von Paul Schaefer und somit auch von Colonia Dignidad zeigen. Durch die zentrale Rolle von Paul Schaefer verwenden wir ihn representativ fuer Colonia Dignidad. Neben den Beziehungen von Paul Schaefer werden weitere relevante Verbindungen aus den Bereichen: Fuehrungskreis, Waffenhandel und externe Unterstuetzungen aufgezeigt.
+# Das Netzwerk ist gerichtet
+# Von der Art ist es ein Two-Mode Netzwerk
+# ungewichtetes Netzwerk 
+
+```
+
+```{r }
+
+edge_density(cd) #berechnet die Dichte des Netzwerkes
+
+#Im Gesamtnetzwerk sind 7,7% der Beziehungen zwischen den Knoten realisiert. 
+
+farthest_vertices(cd) #welche Knoten am weitesten voneinander entfernt sind
+
+get_diameter(cd) #Durchmesser ist die Pfaddistanz der am weitesten voneinander entfernten Knoten
+
+#Der längste Pfad durch das Netzwerk ist: "Mario Romero", "Mile Mavroski", "Paul Schaefer", "Augusto Pinochet", "SIM". Demzufolge sind "Mario Romero" und das Projekt SIM am weitesten voneinander entfernt, mit einer Distanz von 4 Schritten. 
+
+```
+
+```{r Cluster}
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/edgelist%20CD99.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/nodelist%20CD99.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt
+# 
+cd <- graph_from_data_frame(el, nodes, directed=T)
+cd
+
+cluster_walktrap(cd)
+
+cw_cd <- cluster_walktrap(cd)
+modularity(cw_cd)
+membership(cw_cd)
+
+
+plot(cw_cd,
+     cd,
+     asp=0,
+     layout=layout_with_kk,
+     edge.curved=curve_multiple(cd), # verhindert, dass sich Kanten überlagern
+     vertex.color="grey",
+     edge.arrow.size=.10,
+     layout=layout_nicely,
+     vertex.size=15,
+     main ="Cluster des Gesamtnetzwerks"
+)
+
+
+```
+
+```{r Teilnetzwerk Fuehrungsebene}
+
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/edgelist%20CD99.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/nodelist%20CD99.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt
+# 
+cd <- graph_from_data_frame(d=edgematrix, vertices=nodes, directed=T)
+
+#Löscht alle nummerischen Kodierungen, außer 5
+fuehrung <- delete_vertices(cd, V(cd)[power != "5"])
+fuehrung
+
+V(fuehrung)[V(fuehrung)$country == 1]$color <- "red" # Mitglieder der Führungsebene die aus Chile kommen, werden rot hervogehoben 
+
+V(fuehrung)[V(fuehrung)$country == 2]$color <- "yellow" # Mitglieder der Führungsebene die aus Deutschland kommen, werden gelb hervogehoben 
+
+#Die Farben sollen zeigen, wie groß der Einfluss des jeweiligen Landes war. 
+
+
+plot(fuehrung,
+     layout=layout_with_kk,
+     asp=0, #definiert, dass der ganze Raum ausgenutzt werden soll
+     layout=layout_with_kk,
+     edge.curved=curve_multiple(fuehrung), # verhindert, dass sich Kanten überlagern
+     vertex.size=10, # setzt die Größe der Knoten auf 10
+     vertex.label.color = "black",
+     vertex.label.family = "sans", #gibt die Schriftart an
+     main="Fuehrungsebene der Colonia Dignidad")
+
+# Dieses Teilnetzwerk zeigt den Fuehrungskreis der Colonia Dignidad auf. Wir wollen zeigen welche Personen neben Paul Schaefer eine wichtige Rolle fuer die und in der Kolonie gespielt haben. Diese Personen waren Ausloeser fuer verschiedene Geschehnisse in der Kolonie, welche ohne diese Schluesselcharaktere moeglicherweise nicht so stattgefunden haetten.
+
+
+fuehrung_cd <- cluster_walktrap(fuehrung) 
+modularity(fuehrung_cd)
+membership(fuehrung_cd)
+
+plot(fuehrung_cd,
+     fuehrung,
+     asp=0,
+     layout=layout_with_kk,
+     edge.curved=curve_multiple(cd), # verhindert, dass sich Kanten überlagern
+     vertex.color="grey",
+     edge.arrow.size=.10,
+     layout=layout_nicely,
+     vertex.size=15,
+     main ="Cluster in der Fuehrungsebene"
+)
+
+
+
+```
+
+```{r Teilnetzwerk Waffenhandel}
+
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/edgelist%20CD99.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/nodelist%20CD99.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt
+# 
+cd <- graph_from_data_frame(d=edgematrix, vertices=nodes, directed=FALSE)
+
+
+waffenhandel <- subgraph.edges(cd,E(cd)[E(cd)$relation == 10])
+waffenhandel
+
+
+plot(waffenhandel,
+     layout=layout_with_kk,
+     asp=0, # definiert, dass der ganze Platz ausgenutzt werden soll
+     edge.curved=curve_multiple(cd), # verhindert, dass sich Kanten überlagern
+     arrow.size=0.3,
+     main ="Waffenhandel")
+
+#Dieses Teilnetzwerk zeigt auf welche Akteure in- und außerhalb der Kolonie maßgeblich am Waffenhandel beteiligt waren. 
+
+
+waffenhandel_cd <- cluster_walktrap(waffenhandel) 
+modularity(waffenhandel_cd)
+membership(waffenhandel_cd)
+
+plot(waffenhandel_cd,
+     waffenhandel,
+     asp=0,
+     layout=layout_with_kk,
+     edge.curved=curve_multiple(cd), # verhindert, dass sich Kanten überlagern
+     vertex.color="yellow",
+     edge.arrow.size=.10,
+     layout=layout_nicely,
+     vertex.size=15,
+     main ="Cluster im Teilnetzwerk Waffenhandel" )
+
+```
+
+```{r Teilnetzwerk Herren}
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/edgelist%20CD99.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/nodelist%20CD99.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt
+# 
+cd <- graph_from_data_frame(d=edgematrix, vertices=nodes, directed=T)
+
+herren <- subgraph.edges(cd, E(cd)[relation ==" 9"])
+herren
+
+plot(herren,
+     asp=0, #definiert, dass der ganze Raum ausgenutzt werden soll
+     edge.curved=curve_multiple(herren), # verhindert, dass sich Kanten überlagern
+     vertex.size=10, # setzt die Größe der Knoten auf 10
+     vertex.label.color = "black",
+     vertex.label.family = "sans", #gibt die Schriftart an
+     edge.arrow.size=.2,
+     edge.color="red",
+     vertex.color="grey75",
+     arrow.size=0.3,
+     vertex.frame.color=NA,
+     layout=layout_with_kk,
+     main="Mitglieder der Herren")
+
+#Dieses Teilnetzwerk stellt die Mitglider der Herren in der Colonia Dignidad dar, welche als Paul Schaefers Berater fungierten.
+
+herren_cd <- cluster_walktrap(herren) 
+modularity(herren_cd)
+membership(herren_cd)
+
+plot(herren_cd,
+     herren,
+     asp=0,
+     layout=layout_with_kk,
+     edge.curved=curve_multiple(cd), # verhindert, dass sich Kanten überlagern
+     vertex.color="green",
+     edge.arrow.size=.10,
+     layout=layout_nicely,
+     vertex.size=15,
+     main ="Cluster im Teilnetzwerk Herren" )
+
+```
+
+```{r Teilnetzwerk geschaeftliche Beziehungen}
+
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/edgelist%20CD99.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/nodelist%20CD99.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt
+# 
+cd <- graph_from_data_frame(d=edgematrix, vertices=nodes, directed=T)
+
+
+work <- subgraph.edges(cd, E(cd)[relation ==" 1"])
+work
+
+
+plot(work,
+     asp=0, # definiert, dass der ganze Platz ausgenutzt werden soll
+     edge.color="pink2",
+    vertex.color="yellow",
+     layout=layout_with_kk,
+     main="Geschaeftliche Beziehungen")
+
+# Dieses Teilnetzwerk zeigt Beziehungen auf, die relevant fuer geschaeftliche Handlungen im Kontext der Kolonie waren. 
+
+geschaeftlich_cd <- cluster_walktrap(work) 
+modularity(geschaeftlich_cd)
+membership(geschaeftlich_cd)
+
+plot(geschaeftlich_cd,
+     work,
+     asp=0,
+     layout=layout_with_kk,
+     edge.curved=curve_multiple(cd), # verhindert, dass sich Kanten überlagern
+     vertex.color="yellow",
+     edge.arrow.size=.10,
+     layout=layout_nicely,
+     vertex.size=15,
+     main ="Cluster im Teilnetzwerk der geschaeftlichen Beziehungen" )
+
+```
+
+```{r Teilnetzwerk Unterstuetzngsbeziehungen}
+
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/edgelist%20CD99.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/nodelist%20CD99.csv", header=T, as.is=T, sep = ",")
+
+# Matrix erstellen
+edgematrix <-as.matrix(el)
+
+# Zusammenführen von Edge- und Nodelist als igraph-Objekt
+# 
+cd <- graph_from_data_frame(d=edgematrix, vertices=nodes, directed=T)
+
+
+help <- subgraph.edges(cd, E(cd)[relation ==" 2"])
+help
+
+plot(help,
+     edge.arrow.size=.2,
+     asp=0, # definiert, dass der ganze Platz ausgenutzt werden soll
+     edge.color="red",
+     vertex.color="grey75",
+     vertex.frame.color=NA,
+     layout=layout_with_kk,
+     main="Unterstuetzungsbeziehung")
+
+# Die Beziehungen in diesem Teilnetzwerk basieren auf aktiver Unterstützung/Zustimmung gegenüber der Colonia Dignidad -> Unterstützung oftmals in Kombination mit einem bestimmten Vorteil.
+
+unterstuetzung_cd <- cluster_walktrap(help) 
+modularity(unterstuetzung_cd)
+membership(unterstuetzung_cd)
+
+plot(unterstuetzung_cd,
+     help,
+     asp=0,
+     layout=layout_with_kk,
+     edge.curved=curve_multiple(cd), # verhindert, dass sich Kanten überlagern
+     vertex.color="pink",
+     edge.arrow.size=.20,
+     layout=layout_nicely,
+     vertex.size=15,
+     main ="Cluster im Teilnetzwerk der Unterstuetzungsbeziehungen" )
+
+```
+
+```{r Zentralitätsmaße}
+
+#Berechnung des höchsten Degree-Werts
+
+
+dcd <- degree(cd)
+dcd
+
+max(dcd)
+which.max(dcd)
+#Paul Schaefer hat mit 273 den höchsten Degree-Wert. Er ist der Knoten, der mit den meisten Kanten und somit auch mit den meisten Knoten verbunden ist.
+
+#Berechnung des Betweenness-Werts
+
+
+bcd <- betweenness(cd, normalized=T)
+bcd
+
+max(bcd)
+which.max(bcd)
+
+# Paul Schaefer ist derjenige mit der Broker-Funktion. Er hat eine entscheidende Rolle für die Erreichung anderer Knoten.
+
+```
+
+
+```{r Einzelne Ego-Netzwerke - Kurt Schnellenkamp}
+
+# Einlesen der Edge- und Nodelist
+el <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/edgelist%20CD99.csv", header=T, as.is=T, sep = ",")
+nodes <- read.csv("https://raw.githubusercontent.com/Vanessa262/Colonia-Dignidad-/master/nodelist%20CD99.csv", header=T, as.is=T, sep = ",")
+edgematrix <-as.matrix(el)
+
+cd <- graph_from_data_frame(d=edgematrix, vertices=nodes, directed=T)
+cd
+
+
+# erzeugt ein Egonetzwerk von Kurt Schnellenkamp
+ego_ks <- make_ego_graph(cd, order = 1, nodes = V(cd)$name == "Kurt Schnellenkamp", mode ="all")
+
+#notwendiger Zwischenschritt für die Erstellung des igraph-Objekts 
+ego_ks <- ego_ks[[1]]
+ego_ks
+
+#ego_ks
+ego_ks <- simplify(ego_ks, remove.multiple = TRUE)# entfernt alle doppelten / mehrfachen Beziehungen zwischen zwei Knoten, da es ausreicht, eine Verbindung zu sehen, um zu wissen, dass die Akteure etwas miteinander zu tun hatten
+
+plot(ego_ks,
+     layout=layout_with_fr,
+     asp=0, # definiert, dass der ganze Platz ausgenutzt werden soll
+     main="Ego-Netzwerk Kurt Schnellenkamp",
+     vertex.color=NA,
+     vertex.label.color="black",
+     vertex.frame.size="5",
+     vertex.label.size="8",
+     edge.color="red",
+     edge.arrow.size=.3)
+
+#Aufgrund seines hohen Stellenwertes den er durch seine Position in der Fuehrungsebene und seinem Platz bei den Herren erlangte, stellt Kurt Schnellenkamp eine wichtige Person mit einem großen Netzwerk dar. 
+
+```
+
+```{r Einzelne Ego-Netzwerke - Hartmut Hopp}
+
+ego_hh<- make_ego_graph(cd, order=1, nodes = V(cd)$name == "Hartmut Hopp", mode = "all") # erstellt ein Ego-Netzwerk von Hartmut Hopp
+
+# notwendiger Zwischenschritt für die Erstellung des igraph-Objekts
+ego_hh <- ego_hh[[1]]
+
+#ego_hh
+ego_hh <- simplify(ego_hh, remove.multiple = TRUE)# entfernt alle doppelten / mehrfachen Beziehungen zwischen zwei Knoten, da es ausreicht, eine Verbindung zu sehen, um zu wissen, dass die Akteure etwas miteinander zu tun hatten
+
+#ego_hh
+
+plot(ego_hh, 
+     asp=0, # definiert, dass der ganze Platz ausgenutzt werden soll
+     layout=layout_with_kk,
+     main="Hartmut Hopp",
+     edge.color="grey40", # definiert die Kantenfarbe
+     vertex.label.size=2,
+     vertex.label.color="black",
+     vertex.label.family="sans",
+     vertex.frame.color=NA, # entfernt den Rahmen um die Knoten
+     vertex.size=10, # setzt die Knotengröße auf 10
+     asp=0, # definiert, dass der gesamte Raum ausgenutzt werden soll,
+     rescale=T)
+
+#Als Person, die bei Paul Schaefer aufgewachsen ist und spaeter der Koloniearzt sowie Schaefers rechte Hand war, weist Hartmut Hopp wichtige Verbindungen auf. 
+
+```
+
+
+```{r Einzelne Ego-Netzwerke - Augusto Pinochet}
+
+ego_ap<- make_ego_graph(cd, order=1, nodes = V(cd)$name == "Augusto Pinochet", mode = "all") # erstellt ein Ego-Netzwerk von Augusto Pinochet
+
+# notwendiger Zwischenschritt für die Erstellung des igraph-Objekts
+ego_ap <- ego_ap[[1]]
+
+#ego_ap
+ego_ap <- simplify(ego_ap, remove.multiple = TRUE)# entfernt alle doppelten / mehrfachen Beziehungen zwischen zwei Knoten, da es ausreicht, eine Verbindung zu sehen, um zu wissen, dass die Akteure etwas miteinander zu tun hatten
+
+#ego_ap
+
+plot(ego_ap,
+     asp=0, # definiert, dass der ganze Platz ausgenutzt werden soll
+     layout=layout_with_kk,
+     main="Augusto Pinochet",
+     edge.color="blue", # definiert die Kantenfarbe
+     vertex.label.size=2,
+     edge.arrow.size=.3,
+     vertex.label.color="black",
+     vertex.label.family="sans",
+     vertex.frame.color=NA, # entfernt den Rahmen um die Knoten
+     vertex.size=10, # setzt die Knotengröße auf 10
+     asp=0, # definiert, dass der gesamte Raum ausgenutzt werden soll,
+     rescale=T)
+
+# Augusto Pinochet war chilenischer Diktator, ein starker Verbuendeter sowie Unterstuetzer Paul Schaefers. Er stellte eine politische Schluesselfigur dar.
+
+
+```
+
+
